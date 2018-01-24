@@ -31,12 +31,12 @@
 
         for(var i = 0; i < 3650; i++){
             var dose = startdos * Math.pow(1 - reduktion, i + 1);
-            var date = new Date();
 
             if(dose < slutdos){
                 break;
             }
 
+            var date = new Date(startdatum);
             date.setDate(startdatum.getDate() + antal_dagar * i);
 
             resultsElm.appendChild(createRow(date, dose));
