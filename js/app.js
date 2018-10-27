@@ -54,6 +54,9 @@ var app = new Vue({
             ]
         ],
         presets:[
+            {name: 'Escitalopram', unit: 'mg', doses: [5, 10, 15, 20]},
+            {name: 'Imovane', unit: 'mg', doses: [5, 7.5]},
+            {name: 'Oxascand', unit: 'mg', doses: [5, 10, 15, 25]},
             {name: 'Sertralin', unit: 'mg', doses: [25, 50, 100]},
             {name: 'Venlafaxin', unit: 'mg', doses: [37.5, 75, 150]}
         ]
