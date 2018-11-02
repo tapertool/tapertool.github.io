@@ -54,11 +54,16 @@ var app = new Vue({
             ]
         ],
         presets:[
+            {name: 'Diazepam', unit: 'mg', doses: [2, 5, 10]},
+            {name: 'Duloxetin', unit: 'mg', doses: [30, 60]},
             {name: 'Escitalopram', unit: 'mg', doses: [5, 10, 15, 20]},
+            {name: 'Gabapentin', unit: 'mg', doses: [100, 300, 400]},
             {name: 'Imovane', unit: 'mg', doses: [5, 7.5]},
             {name: 'Oxascand', unit: 'mg', doses: [5, 10, 15, 25]},
+            {name: 'Pregabalin', unit: 'mg', doses: [50, 100, 200, 300]},
             {name: 'Sertralin', unit: 'mg', doses: [25, 50, 100]},
-            {name: 'Venlafaxin', unit: 'mg', doses: [37.5, 75, 150]}
+            {name: 'Venlafaxin', unit: 'mg', doses: [37.5, 75, 150]},
+            {name: 'Zolpidem', unit: 'mg', doses: [5, 10]}
         ]
     },
     filters:{
