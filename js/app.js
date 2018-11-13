@@ -62,6 +62,8 @@ var app = new Vue({
             {name: 'Oxascand', unit: 'mg', doses: [5, 10, 15, 25]},
             {name: 'Pregabalin', unit: 'mg', doses: [50, 100, 200, 300]},
             {name: 'Sertralin', unit: 'mg', doses: [25, 50, 100]},
+            {name: 'Tramadol, depåtabletter', unit: 'mg', doses: [100, 150, 200]},
+            {name: 'Tramadol, kapslar', unit: 'mg', doses: [50, 100]},
             {name: 'Venlafaxin', unit: 'mg', doses: [37.5, 75, 150]},
             {name: 'Zolpidem', unit: 'mg', doses: [5, 10]}
         ]
